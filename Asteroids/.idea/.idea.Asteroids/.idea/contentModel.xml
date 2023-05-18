@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Asteroids.-589975888.00" t="ExcludeRecursive" />
+    <e p="D:\games\Unity\My Game\Asteroids" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Package" t="Include">
+          <e p="ecs-master" t="Include">
+            <e p="Leopotam.Ecs.asmdef" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="src" t="Include">
+              <e p="EcsComponent.cs" t="Include" />
+              <e p="EcsEntity.cs" t="Include" />
+              <e p="EcsFilter.cs" t="Include" />
+              <e p="EcsHelpers.cs" t="Include" />
+              <e p="EcsSystem.cs" t="Include" />
+              <e p="EcsWorld.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ecs-unityintegration-master" t="Include">
+            <e p="Editor" t="Include">
+              <e p="EcsEntity.cs" t="Include" />
+              <e p="EcsFilter.cs" t="Include" />
+              <e p="EcsSystems.cs" t="Include" />
+              <e p="EcsWorld.cs" t="Include" />
+              <e p="Inspectors" t="Include">
+                <e p="Quaternion.cs" t="Include" />
+                <e p="Vector3.cs" t="Include" />
+              </e>
+              <e p="Leopotam.Ecs.UnityIntegration.Editor.asmdef" t="Include" />
+              <e p="Templates" t="Include">
+                <e p="Component.cs.txt" t="Include" />
+                <e p="ComponentFlag.cs.txt" t="Include" />
+                <e p="InitSystem.cs.txt" t="Include" />
+                <e p="RunSystem.cs.txt" t="Include" />
+                <e p="Startup.cs.txt" t="Include" />
+                <e p="TemplateGenerator.cs" t="Include" />
+              </e>
+            </e>
+            <e p="package.json" t="Include" />
+            <e p="Runtime" t="Include">
+              <e p="EditorHelpers.cs" t="Include" />
+              <e p="Leopotam.Ecs.UnityIntegration.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="UniLeo-main" t="Include">
+            <e p="Leopotam.Ecs.asmref" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="Runtime" t="Include">
+              <e p="MonoHelpers" t="Include">
+                <e p="BaseMonoProvider.cs" t="Include" />
+                <e p="ConversionSystemExtension.cs" t="Include" />
+                <e p="ConvertToEntity.cs" t="Include" />
+                <e p="IConvertToEntity.cs" t="Include" />
+                <e p="MonoProvider.cs" t="Include" />
+                <e p="WorldHandler.cs" t="Include" />
+              </e>
+              <e p="World" t="Include">
+                <e p="Components" t="Include">
+                  <e p="InstantiateComponent.cs" t="Include" />
+                </e>
+                <e p="Systems" t="Include">
+                  <e p="WorldInitSystem.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="PlayerSaveProgress.json" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Components" t="Include">
+            <e p="Animator" t="Include">
+              <e p="AnimatorComponent.cs" t="Include" />
+            </e>
+            <e p="Asteroids" t="Include">
+              <e p="SpawnAsteroidsBlockTimer.cs" t="Include" />
+              <e p="SpawnAsteroidsComponent.cs" t="Include" />
+              <e p="SpawnAsteroidsEvent.cs" t="Include" />
+            </e>
+            <e p="Bounds" t="Include">
+              <e p="BoundariesScreenSystem.cs" t="Include" />
+              <e p="CanBeyondBordersComponent.cs" t="Include" />
+              <e p="ICanBeyondBorders.cs" t="Include" />
+            </e>
+            <e p="Collider" t="Include">
+              <e p="ColliderComponent.cs" t="Include" />
+              <e p="DisableColliderEvent.cs" t="Include" />
+              <e p="EnableColliderEvent.cs" t="Include" />
+            </e>
+            <e p="Damage" t="Include">
+              <e p="DamageableComponent.cs" t="Include" />
+              <e p="DamageComponent.cs" t="Include" />
+              <e p="IDamageable.cs" t="Include" />
+            </e>
+            <e p="Destroy" t="Include">
+              <e p="DeathHandlerComponent.cs" t="Include" />
+              <e p="DestroyEvent.cs" t="Include" />
+              <e p="IDeathHandler.cs" t="Include" />
+              <e p="PreDeathProgress.cs" t="Include" />
+            </e>
+            <e p="EnemyShip" t="Include">
+              <e p="SpawnEnemyShipEvent.cs" t="Include" />
+              <e p="SpawnEntitiesComponent.cs" t="Include" />
+              <e p="SpawnShipEnemyBlockTimer.cs" t="Include" />
+            </e>
+            <e p="Health" t="Include">
+              <e p="HealthBarAttachedComponent.cs" t="Include" />
+              <e p="HealthBarComponent.cs" t="Include" />
+              <e p="HealthChangedEvent.cs" t="Include" />
+              <e p="HealthComponent.cs" t="Include" />
+              <e p="StartFillProgress.cs" t="Include" />
+            </e>
+            <e p="Move" t="Include">
+              <e p="BlockMove.cs" t="Include" />
+              <e p="BlockMovementConditionComponent.cs" t="Include" />
+              <e p="IBlockMoveCondition.cs" t="Include" />
+              <e p="IncreaseGravitationComponent.cs" t="Include" />
+              <e p="IncreaseSpeedComponent.cs" t="Include" />
+              <e p="IncreaseSpeedProjectile.cs" t="Include" />
+              <e p="ModelComponent.cs" t="Include" />
+              <e p="MovementDirectionComponent.cs" t="Include" />
+              <e p="RigidbodyComponent.cs" t="Include" />
+              <e p="SpeedComponent.cs" t="Include" />
+              <e p="SwapDirectionBlockTimer.cs" t="Include" />
+              <e p="SwapDirectionComponent.cs" t="Include" />
+            </e>
+            <e p="Projectile" t="Include">
+              <e p="IConditionSpawnProjectile.cs" t="Include" />
+              <e p="ProjectileSpawnConditionComponent.cs" t="Include" />
+              <e p="SenderProjectileComponent.cs" t="Include" />
+              <e p="SpawnProjectileBlockTimer.cs" t="Include" />
+              <e p="SpawnProjectileComponent.cs" t="Include" />
+              <e p="SpawnProjectileEvent.cs" t="Include" />
+            </e>
+            <e p="RecalculationBlockComponent.cs" t="Include" />
+            <e p="Score" t="Include">
+              <e p="AddScoreEvent.cs" t="Include" />
+              <e p="ScoreComponent.cs" t="Include" />
+            </e>
+            <e p="Tags" t="Include">
+              <e p="AsteroidTag.cs" t="Include" />
+              <e p="EnemyShipSpawnerTag.cs" t="Include" />
+              <e p="EnemyTag.cs" t="Include" />
+              <e p="PlayerTag.cs" t="Include" />
+            </e>
+            <e p="Triggers" t="Include">
+              <e p="OnTriggerEnterComponent.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Configurations" t="Include">
+            <e p="AsteroidConfiguration.cs" t="Include" />
+            <e p="EnemyShipConfiguration.cs" t="Include" />
+            <e p="GameConfigurations.cs" t="Include" />
+            <e p="PlayerConfiguration.cs" t="Include" />
+            <e p="ProjectileConfiguration.cs" t="Include" />
+            <e p="ScoreConfiguration.cs" t="Include" />
+          </e>
+          <e p="Constants" t="Include">
+            <e p="Constants.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="Extensions.cs" t="Include" />
+          </e>
+          <e p="HandlerInterfaces" t="Include">
+            <e p="AsteroidDamageable.cs" t="Include" />
+            <e p="AsteroidDeathHandler.cs" t="Include" />
+            <e p="AsteroidsBeyondBorders.cs" t="Include" />
+            <e p="EnemyShipDamageable.cs" t="Include" />
+            <e p="EnemyShipDeathHandler.cs" t="Include" />
+            <e p="EnemyShipSpawnProjectileCondition.cs" t="Include" />
+            <e p="PlayerConditionConditionSpawnProjectile.cs" t="Include" />
+            <e p="PlayerDamageable.cs" t="Include" />
+            <e p="PlayerDeathHandler.cs" t="Include" />
+            <e p="ProjectileBeyondBorders.cs" t="Include" />
+          </e>
+          <e p="Infrastructure" t="Include">
+            <e p="Bootstrapper.cs" t="Include" />
+            <e p="Factories" t="Include">
+              <e p="AsteroidsFactory.cs" t="Include" />
+              <e p="HealthBarPlayerFactory.cs" t="Include" />
+              <e p="IFactory.cs" t="Include" />
+              <e p="PlayerFactory.cs" t="Include" />
+              <e p="ScoreFactory.cs" t="Include" />
+              <e p="SpawnerEnemyShipFactory.cs" t="Include" />
+            </e>
+            <e p="Game.cs" t="Include" />
+            <e p="IData.cs" t="Include" />
+            <e p="Progress" t="Include">
+              <e p="PlayerProgress.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="ILoad.cs" t="Include" />
+              <e p="ISave.cs" t="Include" />
+              <e p="LoadService.cs" t="Include" />
+              <e p="SaveService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MonoBehaviours" t="Include">
+            <e p="ApplicationHandler.cs" t="Include" />
+            <e p="AsteroidAnimationHandler.cs" t="Include" />
+            <e p="AttackPointMark.cs" t="Include" />
+            <e p="BackGroundScroller.cs" t="Include" />
+            <e p="Collision" t="Include">
+              <e p="AsteroidCollision.cs" t="Include" />
+              <e p="ProjectileCollision.cs" t="Include" />
+            </e>
+            <e p="ExplosionAnimationHandler.cs" t="Include" />
+            <e p="GameOverMenuHandler.cs" t="Include" />
+            <e p="PlayerInputHandler.cs" t="Include" />
+            <e p="ScreenPoints.cs" t="Include" />
+            <e p="StartMenuHandler.cs" t="Include" />
+            <e p="Startup.cs" t="Include" />
+            <e p="Views" t="Include">
+              <e p="AsteroidView.cs" t="Include" />
+              <e p="EnemyShipView.cs" t="Include" />
+              <e p="IEntityView.cs" t="Include" />
+              <e p="PlayerView.cs" t="Include" />
+              <e p="ProjectileView.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Pool" t="Include">
+            <e p="PoolObject.cs" t="Include" />
+          </e>
+          <e p="Systems" t="Include">
+            <e p="Animator" t="Include">
+              <e p="AsteroidAnimationSystem.cs" t="Include" />
+              <e p="PlayerAnimationSystem.cs" t="Include" />
+            </e>
+            <e p="Asteroids" t="Include">
+              <e p="SetSpawnAsteroidsSystem.cs" t="Include" />
+              <e p="SpawnAsteroidsSystem.cs" t="Include" />
+              <e p="SpawnAsteroidsTimerTickSystem.cs" t="Include" />
+            </e>
+            <e p="Collider" t="Include">
+              <e p="DisableCollidersSystem.cs" t="Include" />
+              <e p="EnableCollidersSystem.cs" t="Include" />
+            </e>
+            <e p="Destroy" t="Include">
+              <e p="DestroySystem.cs" t="Include" />
+            </e>
+            <e p="EnemyShip" t="Include">
+              <e p="CheckAliveEnemyShipSystem.cs" t="Include" />
+              <e p="EnemyShipSpawnSystem.cs" t="Include" />
+              <e p="RecalculationBlockTimerTickSystem.cs" t="Include" />
+              <e p="SpawnEnemyShipTimerTickSystem.cs" t="Include" />
+            </e>
+            <e p="Health" t="Include">
+              <e p="HealthBarFillSystem.cs" t="Include" />
+              <e p="HealthCheckerSystem.cs" t="Include" />
+            </e>
+            <e p="Init" t="Include">
+              <e p="AsteroidsInitSystem.cs" t="Include" />
+              <e p="HealthBarInitSystem.cs" t="Include" />
+              <e p="PlayerInitSystem.cs" t="Include" />
+              <e p="ScoreInitSystem.cs" t="Include" />
+              <e p="SpawnerShipEnemyInitSystem.cs" t="Include" />
+            </e>
+            <e p="InputSystems" t="Include">
+              <e p="PlayerInputSystem.cs" t="Include" />
+            </e>
+            <e p="Move" t="Include">
+              <e p="BlockMovementSystem.cs" t="Include" />
+              <e p="IncreaseGravitationSystem.cs" t="Include" />
+              <e p="IncreaseSpeedSystem.cs" t="Include" />
+              <e p="MoveSystem.cs" t="Include" />
+              <e p="SwapDirectionBlockTimerTickSystem.cs" t="Include" />
+              <e p="SwapDirectionSystem.cs" t="Include" />
+            </e>
+            <e p="Projectile" t="Include">
+              <e p="ProjectileCollisionAnalyzeSystem.cs" t="Include" />
+              <e p="ProjectileSetSpawnSystem.cs" t="Include" />
+              <e p="SpawnProjectileSystem.cs" t="Include" />
+              <e p="SpawnProjectileTimerTickSystem.cs" t="Include" />
+            </e>
+            <e p="Score" t="Include">
+              <e p="AddScoreSystem.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Asteroids.sln" t="IncludeFlat" />
+      <e p="Leopotam.Ecs.csproj" t="IncludeRecursive" />
+      <e p="Leopotam.Ecs.UnityIntegration.csproj" t="IncludeRecursive" />
+      <e p="Leopotam.Ecs.UnityIntegration.Editor.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

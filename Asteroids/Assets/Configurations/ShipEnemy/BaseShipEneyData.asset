@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717844f2cb7048ee8c4429f6bb54dc5a, type: 3}
+  m_Name: BaseShipEneyData
+  m_EditorClassIdentifier: 
+  enemiesPrefabs:
+  - {fileID: 4053828044050617889, guid: 303457e8ecf4bd14fbb50931c42c6ec0, type: 3}
+  - {fileID: 3985057245685605353, guid: f8a601bf68784154cb4d10138eaa179a, type: 3}
+  - {fileID: 6369726595457623376, guid: 817c1e2482d64ca49b74efdbcc2b4cde, type: 3}
+  explosionPrefabs:
+  - {fileID: 8734609661262232068, guid: b59ae221a9667304aba7c0692ea3c3e4, type: 3}
+  - {fileID: 1575975431846038001, guid: de93274d7652ae24e8f9678cd7653991, type: 3}
+  - {fileID: 9025152469667787710, guid: 338e0c5f1c2019946bdcd75e242f1bb1, type: 3}
+  - {fileID: 2827577789971185811, guid: 2fac81b5e2a2d8d48be1ef2dc88f15b8, type: 3}
+  projectileConfigurations:
+  - {fileID: 11400000, guid: 72d7a501302ece749a98866eaf159252, type: 2}
+  minHealth: 1
+  maxHealth: 1
+  minSpawnFrequency: 1
+  maxSpawnFrequency: 5
+  minAmountSpawnShipEnemy: 2
+  maxAmountSpawnShipEnemy: 5
+  spawnOffsetY: -0.7
+  recalculationEntitiesTime: 1
+  minSpeed: 0.5
+  maxSpeed: 1.5
+  projectileIncreaseSpeedMultiplier: 5
+  swapDirectionDistance: 0.3
+  timeSwapBlock: 1

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad6eebc3c96e4daa8cd2f98b25b2c77b, type: 3}
+  m_Name: GameConfiguration
+  m_EditorClassIdentifier: 
+  playerConfiguration: {fileID: 11400000, guid: 5fd0d7392a43a67479a9218afa31bf01, type: 2}
+  poolContainer: {fileID: 4512671056785421724, guid: 0e1622eeb16f04048922cb904964a9a6, type: 3}
+  enemyShipConfiguration: {fileID: 11400000, guid: ba8aa39a21c66f146810993e66088fc7, type: 2}
+  asteroidConfiguration: {fileID: 11400000, guid: 3571648e81ff6904fac2ce2786cd84ab, type: 2}
+  scoreConfiguration: {fileID: 11400000, guid: ff11d6b64b114c542a9a3fb4856b15b4, type: 2}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c74c0ad-ea50-46d4-aae4-5afb8bec2bc0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Configurations/GameConfigurations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Health/HealthCheckerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandlerInterfaces/AsteroidDeathHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandlerInterfaces/AsteroidDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Score/ScoreComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Factories/ScoreFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Configurations/ScoreConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Bounds/CanBeyondBordersComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectile/ProjectileSetSpawnSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/save.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/ISave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/ILoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Init/PlayerInitSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/SaveService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/LoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Score/AddScoreSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviours/Collision/ProjectileCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandlerInterfaces/ProjectileBeyondBorders.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Animator/PlayerAnimationSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviours/GameOverMenuHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Bootstrapper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Progress/PlayerProgress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviours/ApplicationHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Init/HealthBarInitSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Health/HealthComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Factories/HealthBarPlayerFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Health/HealthBarFillSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandlerInterfaces/PlayerDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Configurations/PlayerConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandlerInterfaces/PlayerDeathHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Factories/PlayerFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviours/ExplosionAnimationHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Asteroids/SpawnAsteroidsComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Factories/AsteroidsFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Configurations/AsteroidConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/EnemyShip/CheckAliveEnemyShipSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Asteroids/SetSpawnAsteroidsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/EnemyShip/RecalculationBlockTimerTickSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Asteroids/SpawnAsteroidsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectile/ProjectileCollisionAnalyzeSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviours/StartMenuHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Move/IncreaseSpeedSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Package/ecs-master/src/EcsEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Projectile/SpawnProjectileComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Factories/SpawnerEnemyShipFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/EnemyShip/EnemyShipSpawnSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Configurations/EnemyShipConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviours/Startup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Projectile/SpawnProjectileSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Services/LoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerSaveProgress.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Pm80yNd9Ba6WT3XhqXzjTfkpV8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c74c0ad-ea50-46d4-aae4-5afb8bec2bc0" name="Default Changelist" comment="" />
+      <created>1684050681966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684050681966</updated>
+      <workItem from="1684050681966" duration="16759000" />
+      <workItem from="1684124654771" duration="7386000" />
+      <workItem from="1684147468357" duration="17126000" />
+      <workItem from="1684210676291" duration="14369000" />
+      <workItem from="1684227414377" duration="5103000" />
+      <workItem from="1684242948192" duration="12204000" />
+      <workItem from="1684318475307" duration="20121000" />
+      <workItem from="1684381349183" duration="1023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="96" key="RiderGenerateDialog" timestamp="1684342950155">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="479" y="96" key="RiderGenerateDialog/0.0.1536.834@0.0.1536.834" timestamp="1684342950155" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1684382050170">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1684382050170" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1684249892007">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1684249892007" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1684381570162">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1684381570162" />
+  </component>
+</project>

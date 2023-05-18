@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d031e81538884e43b922201b94d8eea5, type: 3}
+  m_Name: AsteroidData
+  m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: 5373343233123260909, guid: 501e4e278f8c5d645b01c1a8f921bb01, type: 3}
+  damage: 20
+  spawnAsteroidsFrequency: 2
+  leftSpawnOffset: 0.5
+  rightSpawnOffset: -0.5
+  maxAmountSpawnAsteroids: 2
+  minAmountSpawnAsteroids: 1
+  minScale: 0.5
+  maxScale: 1.1
+  addValueIncreaseGravity: 0.001
+  minHealth: 1
+  maxHealth: 1
